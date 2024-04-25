@@ -1,0 +1,29 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Martina Castillo 2",
+    "age": 20 ,
+    "email": "martinacastillo2@gmail.com"
+}
+
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/662995eaa57daaf6b64c0512 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/662995eaa57daaf6b64c0512 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Martina Castillo 2",
+    "age": "20",
+    "email": "martinacc@gmail.commm"
+}
+
+###
+DELETE  http://localhost:9000/api/users/662994e06e2c816fd6ab70b9 HTTP/1.1
