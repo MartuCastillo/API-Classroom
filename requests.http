@@ -3,11 +3,11 @@ POST http://localhost:9000/api/users HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Lucia Lobo ",
-    "age": 19 ,
-    "club": "Atletico",
-    "categoria": "C4",
-    "email": "lucialobo@gmail.com"
+    "name": "Renata canseco ",
+    "age": 13 ,
+    "club": "River",
+    "categoria": "c3",
+    "email": "renatacasneco@gmail.com"
 }
 
 
@@ -30,4 +30,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE  http://localhost:9000/api/users/66298d3491c1bc16dd8d18fe HTTP/1.1
+DELETE  http://localhost:9000/api/users/66304c6bdc3575f4ee35160e HTTP/1.1
